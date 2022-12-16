@@ -15,7 +15,8 @@ class CommandTests(SimpleTestCase):
     """Comandos de Teste."""
 
     def test_wait_for_db_ready(self, patched_check):
-        """Teste esperará pelo banco de dados quando receber OperationalError."""
+        """Teste esperará pelo banco de dados quando
+         receber OperationalError."""
         patched_check.return_value = True
 
         call_command('wait_for_db')
