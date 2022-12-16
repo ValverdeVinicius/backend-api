@@ -1,5 +1,5 @@
 FROM python:3.9-alpine3.13
-LABEL maintainer="vinicius"
+LABEL maintainer="valver69"
 
 ENV PYTHONUNBUFFERED 1
 
