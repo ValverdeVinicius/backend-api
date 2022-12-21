@@ -21,7 +21,7 @@ class ModelTest(TestCase):
         self.assertTrue(user.check_password(password))
 
     def test_new_user_email_normalized(self):
-        """Email de teste está normalizado para novos usuários"""
+        """Ver se o e-mail de teste está normalizado para novos usuários"""
         sample_emails = [
             ['test1@EXAMPLE.com', 'test1@example.com'],
             ['Test2@Example.com', 'Test2@example.com'],
